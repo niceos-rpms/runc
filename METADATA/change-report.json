@@ -1,0 +1,63 @@
+{
+  "actions": [],
+  "diff": {
+    "package": "runc",
+    "package_fields": {
+      "epoch": {
+        "changed": false,
+        "new": null,
+        "old": null
+      },
+      "evr": {
+        "changed": false,
+        "new": "1.3.0-1",
+        "old": "1.3.0-1"
+      },
+      "name": {
+        "changed": false,
+        "new": "runc",
+        "old": "runc"
+      },
+      "release": {
+        "changed": false,
+        "new": "1",
+        "old": "1"
+      },
+      "version": {
+        "changed": false,
+        "new": "1.3.0",
+        "old": "1.3.0"
+      }
+    },
+    "sources": {
+      "added": [],
+      "changed_same_name": [],
+      "kind_or_index_changed": [],
+      "new_total": 1,
+      "old_total": 1,
+      "removed": [],
+      "unchanged": [
+        "v1.3.0.tar.gz"
+      ]
+    },
+    "spec": {
+      "changed_vs_dst": false,
+      "changed_vs_lock": false,
+      "dst_sha256": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434",
+      "exists_in_core": true,
+      "new_sha256": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434",
+      "old_lock_sha256": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434"
+    },
+    "spec_file": "runc.spec",
+    "status": "existing"
+  },
+  "dry_run": false,
+  "generator": {
+    "name": "mkcore.py",
+    "vendor": "NiceSOFT",
+    "version": "4.0"
+  },
+  "mode": "update",
+  "package": "runc",
+  "run_id": "20260427T175349Z"
+}

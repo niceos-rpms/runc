@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "patches": 0,
+    "sources": 1,
+    "total": 1
+  },
+  "items": [
+    {
+      "dst_name": "v1.3.0.tar.gz",
+      "gost12": "7276bc88c0542e8ba7aa2fcb773abfa6d11134d9c3874967df1583c389fdb402",
+      "index": 0,
+      "kind": "Source",
+      "pool_path": "v1.3.0.tar.gz",
+      "remote_url": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.0.tar.gz",
+      "sha256": "3262492ce42bea0919ee1a2d000b6f303fd14877295bc38d094876b55fdd448b",
+      "size": 2858199,
+      "token": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.0.tar.gz",
+      "wanted": "v1.3.0.tar.gz"
+    }
+  ],
+  "lock_format": 2,
+  "package": {
+    "dir": "runc",
+    "dir_policy": "spec-basename",
+    "epoch": null,
+    "evr": "1.3.0-1",
+    "name": "runc",
+    "release": "1",
+    "version": "1.3.0"
+  },
+  "rpmspec_context": {
+    "defines": [],
+    "with": [],
+    "without": []
+  },
+  "spec": {
+    "file": "runc.spec",
+    "gost12": "b6876f2178a8718f0e3f741b7968810e5227925c36e540e0aea4d027b3a9b159",
+    "preprocessed_sha256": "ef86cc6e9c6f1085b7e7f9ff94094e4e12b9885d0bce9b2b4db63e1c585d6bd3",
+    "sha256": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://runc.io"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "name": "runc",
+      "properties": [
+        {
+          "name": "niceos:package_dir",
+          "value": "runc"
+        },
+        {
+          "name": "niceos:evr",
+          "value": "1.3.0-1"
+        },
+        {
+          "name": "niceos:spec_sha256",
+          "value": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434"
+        },
+        {
+          "name": "niceos:lock_sha256",
+          "value": "f61ba71df93aaae8b9d7524520247e8154ab4b1c1078685868719cfd3fbd564b"
+        }
+      ],
+      "purl": "pkg:rpm/runc@1.3.0-1",
+      "type": "library",
+      "version": "1.3.0-1"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3262492ce42bea0919ee1a2d000b6f303fd14877295bc38d094876b55fdd448b"
+        }
+      ],
+      "name": "v1.3.0.tar.gz",
+      "properties": [
+        {
+          "name": "niceos:source_kind",
+          "value": "Source"
+        },
+        {
+          "name": "niceos:source_index",
+          "value": "0"
+        },
+        {
+          "name": "niceos:source_token",
+          "value": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.0.tar.gz"
+        },
+        {
+          "name": "niceos:pool_path",
+          "value": "v1.3.0.tar.gz"
+        }
+      ],
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://runc.io"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-2.1-only"
+          }
+        }
+      ],
+      "name": "runc",
+      "properties": [
+        {
+          "name": "niceos:package_dir",
+          "value": "runc"
+        },
+        {
+          "name": "niceos:evr",
+          "value": "1.3.0-1"
+        },
+        {
+          "name": "niceos:spec_sha256",
+          "value": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434"
+        },
+        {
+          "name": "niceos:lock_sha256",
+          "value": "f61ba71df93aaae8b9d7524520247e8154ab4b1c1078685868719cfd3fbd564b"
+        }
+      ],
+      "purl": "pkg:rpm/runc@1.3.0-1",
+      "type": "library",
+      "version": "1.3.0-1"
+    },
+    "tools": [
+      {
+        "name": "mkcore.py",
+        "vendor": "NiceSOFT",
+        "version": "4.0"
+      }
+    ]
+  },
+  "specVersion": "1.4",
+  "version": 1
+}
