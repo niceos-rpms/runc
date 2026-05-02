@@ -40,11 +40,11 @@
     }
   },
   "last_diff_summary": {
-    "has_changes": true,
+    "has_changes": false,
     "sources_added": 0,
     "sources_changed_same_name": 0,
     "sources_removed": 0,
-    "spec_changed": true
+    "spec_changed": false
   },
   "lock_sha256": "b83275f891c8a395819b3594e9518e1036c919ecc6be1c3fde61b9e77ea1fe58",
   "metadata_format": 2,
