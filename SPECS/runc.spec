@@ -2,7 +2,7 @@
 %define __os_install_post  %{nil}
 
 # Use major.minor.patch-rcX
-%define RUNC_VERSION 1.3.0
+%define RUNC_VERSION %{version}
 %define RUNC_BRANCH  v%{RUNC_VERSION}
 %define gopath_comp  github.com/opencontainers/runc
 
@@ -14,15 +14,15 @@ Summary(ru):    Запуск и управление контейнерами
 License:        LGPL-2.1-only
 URL:            https://runc.io
 
-Source0:        https://github.com/opencontainers/runc/archive/refs/tags/v%{version}.tar.gz
+Source0:        https://github.com/opencontainers/runc/archive/refs/tags/v%{version}.tar.gz#%{name}-%{version}.tar.gz
 
 Packager:       NICE SOFT GROUP LLC (ООО "НАЙС СОФТ ГРУПП") 5024245440 <niceos@ncsgp.ru>
 Vendor:         NiceSOFT
 Distribution:   NiceOS.Core
 BugURL:         https://bugs.niceos.ru/
-VCS:            https://specs.niceos.ru/rmps/%{name}
+VCS:            https://specs.niceos.ru/rpms/%{name}
 
-BuildRequires:  go
+BuildRequires:  go >= 1.25
 BuildRequires:  go-md2man
 BuildRequires:  libseccomp
 BuildRequires:  libseccomp-devel
