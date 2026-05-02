@@ -7,7 +7,7 @@
 %define gopath_comp  github.com/opencontainers/runc
 
 Name:           runc
-Version:        1.3.0
+Version:        1.3.5
 Release:        1%{?dist}
 Summary:        Run and manage containers
 Summary(ru):    Запуск и управление контейнерами
@@ -87,5 +87,14 @@ make %{?_smp_mflags} \
 %doc %{_mandir}/man8/*
 
 %changelog
+* Sat May 02 2026 NiceOS Team <support@niceos.ru> - 1.3.5-1
+- EN: - Update runc from 1.3.0 to 1.3.5.
+- Apply upstream patch fixes for recursive atime-related mount flags and revert the runc create regression.
+- Refresh source archive, checksums, and related packaging metadata.
+- RU: - Обновить runc с версии 1.3.0 до 1.3.5.
+- Подтянуть upstream-исправления для рекурсивных mount-флагов, связанных с atime, и откат регрессии в runc create.
+- Обновить исходный архив, контрольные суммы и сопутствующие упаковочные метаданные.
+
+
 * Sat Jan 10 2026 NiceOS Team <niceos@ncsgp.ru> - 1.3.0-1
 - Initial build for NiceOS (Первая сборка для НАЙС.ОС)
