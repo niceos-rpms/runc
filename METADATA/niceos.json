@@ -13,7 +13,7 @@
   ],
   "dependencies_from_spec": {
     "BuildRequires": [
-      "go",
+      "go >= 1.25",
       "go-md2man",
       "libseccomp",
       "libseccomp-devel",
@@ -21,7 +21,7 @@
       "which"
     ],
     "Requires": [
-      "runc = 1.3.0-1"
+      "runc = 1.3.5-1"
     ]
   },
   "generator": {
@@ -30,7 +30,7 @@
     "version": "4.0"
   },
   "identifiers": {
-    "purl_rpm": "pkg:rpm/runc@1.3.0-1"
+    "purl_rpm": "pkg:rpm/runc@1.3.5-1"
   },
   "language_ecosystems": {
     "pypi": {
@@ -40,13 +40,13 @@
     }
   },
   "last_diff_summary": {
-    "has_changes": false,
-    "sources_added": 0,
+    "has_changes": true,
+    "sources_added": 1,
     "sources_changed_same_name": 0,
-    "sources_removed": 0,
-    "spec_changed": false
+    "sources_removed": 1,
+    "spec_changed": true
   },
-  "lock_sha256": "b83275f891c8a395819b3594e9518e1036c919ecc6be1c3fde61b9e77ea1fe58",
+  "lock_sha256": "953ff965631c67483dceda08d6a013cd9bd7addf2d3f396ed9cd979c2f5cb841",
   "metadata_format": 2,
   "package_dir": "runc",
   "package_dir_policy": "spec-basename",
@@ -68,16 +68,16 @@
   "sources": {
     "items": [
       {
-        "dst_name": "v1.3.0.tar.gz",
-        "gost12": "7276bc88c0542e8ba7aa2fcb773abfa6d11134d9c3874967df1583c389fdb402",
+        "dst_name": "runc-1.3.5.tar.gz",
+        "gost12": "712489bb151e5ea6863a2c2c98001ef63531f9138591a6bc36dc69baf58bc9d0",
         "index": 0,
         "kind": "Source",
-        "pool_path": "v1.3.0.tar.gz",
-        "remote_url": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.0.tar.gz",
-        "sha256": "3262492ce42bea0919ee1a2d000b6f303fd14877295bc38d094876b55fdd448b",
-        "size": 2858199,
-        "token": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.0.tar.gz",
-        "wanted": "v1.3.0.tar.gz"
+        "pool_path": "runc-1.3.5.tar.gz",
+        "remote_url": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.5.tar.gz#runc-1.3.5.tar.gz",
+        "sha256": "72620f9b0e62d8da80c0c08a6265ab10d24330c544115c30713ba1429bde706d",
+        "size": 2895793,
+        "token": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.5.tar.gz#runc-1.3.5.tar.gz",
+        "wanted": "runc-1.3.5.tar.gz"
       }
     ],
     "patches_total": 0,
@@ -86,16 +86,16 @@
   },
   "spec": {
     "epoch": null,
-    "evr": "1.3.0-1",
-    "gost12": "e78982ba220312d29821cb9f08a989b8ca43baad989b33b12b845f7deb16cc76",
+    "evr": "1.3.5-1",
+    "gost12": "661ef913ead9d5914a2c83e5d582b840e52ccbcbc33b024c6a63f3114455e0fd",
     "license": "LGPL-2.1-only",
     "name_tag": "runc",
-    "preprocessed_sha256": "37d502446611715316e890519648e609595e6308e0cffc32593af387b3e208ce",
+    "preprocessed_sha256": "c7c976f63493a8901d74a70e02505fb2c27831880d30822f784f45c063658a3c",
     "release": "1",
-    "sha256": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2",
+    "sha256": "9aee922e7bc72a33001a096c400c0ee231829ee46c9164e4e5d8db13ab6bb2c7",
     "summary": "Run and manage containers",
     "url": "https://runc.io",
-    "version": "1.3.0"
+    "version": "1.3.5"
   },
   "upstream_hints": {
     "github": [

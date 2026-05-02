@@ -23,29 +23,29 @@
         },
         {
           "name": "niceos:evr",
-          "value": "1.3.0-1"
+          "value": "1.3.5-1"
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2"
+          "value": "9aee922e7bc72a33001a096c400c0ee231829ee46c9164e4e5d8db13ab6bb2c7"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "b83275f891c8a395819b3594e9518e1036c919ecc6be1c3fde61b9e77ea1fe58"
+          "value": "953ff965631c67483dceda08d6a013cd9bd7addf2d3f396ed9cd979c2f5cb841"
         }
       ],
-      "purl": "pkg:rpm/runc@1.3.0-1",
+      "purl": "pkg:rpm/runc@1.3.5-1",
       "type": "library",
-      "version": "1.3.0-1"
+      "version": "1.3.5-1"
     },
     {
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "3262492ce42bea0919ee1a2d000b6f303fd14877295bc38d094876b55fdd448b"
+          "content": "72620f9b0e62d8da80c0c08a6265ab10d24330c544115c30713ba1429bde706d"
         }
       ],
-      "name": "v1.3.0.tar.gz",
+      "name": "runc-1.3.5.tar.gz",
       "properties": [
         {
           "name": "niceos:source_kind",
@@ -57,11 +57,11 @@
         },
         {
           "name": "niceos:source_token",
-          "value": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.0.tar.gz"
+          "value": "https://github.com/opencontainers/runc/archive/refs/tags/v1.3.5.tar.gz#runc-1.3.5.tar.gz"
         },
         {
           "name": "niceos:pool_path",
-          "value": "v1.3.0.tar.gz"
+          "value": "runc-1.3.5.tar.gz"
         }
       ],
       "type": "file"
@@ -90,20 +90,20 @@
         },
         {
           "name": "niceos:evr",
-          "value": "1.3.0-1"
+          "value": "1.3.5-1"
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2"
+          "value": "9aee922e7bc72a33001a096c400c0ee231829ee46c9164e4e5d8db13ab6bb2c7"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "b83275f891c8a395819b3594e9518e1036c919ecc6be1c3fde61b9e77ea1fe58"
+          "value": "953ff965631c67483dceda08d6a013cd9bd7addf2d3f396ed9cd979c2f5cb841"
         }
       ],
-      "purl": "pkg:rpm/runc@1.3.0-1",
+      "purl": "pkg:rpm/runc@1.3.5-1",
       "type": "library",
-      "version": "1.3.0-1"
+      "version": "1.3.5-1"
     },
     "tools": [
       {

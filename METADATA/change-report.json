@@ -1,6 +1,10 @@
 {
   "actions": [
-    "source_added:v1.3.0.tar.gz"
+    "source_added:runc-1.3.5.tar.gz",
+    "sources_sha256_written",
+    "sources_gost_written",
+    "lock_written",
+    "metadata_written"
   ],
   "diff": {
     "package": "runc",
@@ -11,8 +15,8 @@
         "old": null
       },
       "evr": {
-        "changed": false,
-        "new": "1.3.0-1",
+        "changed": true,
+        "new": "1.3.5-1",
         "old": "1.3.0-1"
       },
       "name": {
@@ -26,28 +30,30 @@
         "old": "1"
       },
       "version": {
-        "changed": false,
-        "new": "1.3.0",
+        "changed": true,
+        "new": "1.3.5",
         "old": "1.3.0"
       }
     },
     "sources": {
-      "added": [],
+      "added": [
+        "runc-1.3.5.tar.gz"
+      ],
       "changed_same_name": [],
       "kind_or_index_changed": [],
       "new_total": 1,
       "old_total": 1,
-      "removed": [],
-      "unchanged": [
+      "removed": [
         "v1.3.0.tar.gz"
-      ]
+      ],
+      "unchanged": []
     },
     "spec": {
       "changed_vs_dst": false,
-      "changed_vs_lock": false,
-      "dst_sha256": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2",
+      "changed_vs_lock": true,
+      "dst_sha256": "9aee922e7bc72a33001a096c400c0ee231829ee46c9164e4e5d8db13ab6bb2c7",
       "exists_in_core": true,
-      "new_sha256": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2",
+      "new_sha256": "9aee922e7bc72a33001a096c400c0ee231829ee46c9164e4e5d8db13ab6bb2c7",
       "old_lock_sha256": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2"
     },
     "spec_file": "runc.spec",
@@ -61,5 +67,5 @@
   },
   "mode": "update",
   "package": "runc",
-  "run_id": "20260502T135855Z"
+  "run_id": "20260502T140028Z"
 }
