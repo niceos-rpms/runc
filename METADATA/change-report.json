@@ -1,7 +1,6 @@
 {
   "actions": [
-    "source_added:v1.3.0.tar.gz",
-    "metadata_written"
+    "source_added:v1.3.0.tar.gz"
   ],
   "diff": {
     "package": "runc",
@@ -62,5 +61,5 @@
   },
   "mode": "update",
   "package": "runc",
-  "run_id": "20260502T135805Z"
+  "run_id": "20260502T135855Z"
 }
