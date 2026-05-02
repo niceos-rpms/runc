@@ -27,11 +27,11 @@
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434"
+          "value": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "f61ba71df93aaae8b9d7524520247e8154ab4b1c1078685868719cfd3fbd564b"
+          "value": "b83275f891c8a395819b3594e9518e1036c919ecc6be1c3fde61b9e77ea1fe58"
         }
       ],
       "purl": "pkg:rpm/runc@1.3.0-1",
@@ -94,11 +94,11 @@
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434"
+          "value": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "f61ba71df93aaae8b9d7524520247e8154ab4b1c1078685868719cfd3fbd564b"
+          "value": "b83275f891c8a395819b3594e9518e1036c919ecc6be1c3fde61b9e77ea1fe58"
         }
       ],
       "purl": "pkg:rpm/runc@1.3.0-1",

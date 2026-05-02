@@ -1,5 +1,9 @@
 {
-  "actions": [],
+  "actions": [
+    "source_added:v1.3.0.tar.gz",
+    "lock_written",
+    "metadata_written"
+  ],
   "diff": {
     "package": "runc",
     "package_fields": {
@@ -42,10 +46,10 @@
     },
     "spec": {
       "changed_vs_dst": false,
-      "changed_vs_lock": false,
-      "dst_sha256": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434",
+      "changed_vs_lock": true,
+      "dst_sha256": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2",
       "exists_in_core": true,
-      "new_sha256": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434",
+      "new_sha256": "a4c939fc8e2d59def1ce1108d0ee0faf66d733afa338363e994dd9d4ca5771c2",
       "old_lock_sha256": "744710ce7f1f676c67afbc01e213e2db12c93e0f5dae5a8c214b1750400b1434"
     },
     "spec_file": "runc.spec",
@@ -59,5 +63,5 @@
   },
   "mode": "update",
   "package": "runc",
-  "run_id": "20260427T175349Z"
+  "run_id": "20260502T135712Z"
 }
