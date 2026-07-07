@@ -7,7 +7,7 @@
 %define gopath_comp  github.com/opencontainers/runc
 
 Name:           runc
-Version:        1.3.5
+Version:        1.3.6
 Release:        1%{?dist}
 Summary:        Run and manage containers
 Summary(ru):    Запуск и управление контейнерами
@@ -87,6 +87,11 @@ make %{?_smp_mflags} \
 %doc %{_mandir}/man8/*
 
 %changelog
+* Tue Jul 07 2026 NiceOS Team <support@niceos.ru> - 1.3.6-1
+- EN: Update to upstream version 1.3.6. Security references: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881, CVE-2026-41579.
+- RU: Обновление до upstream-версии 1.3.6. Упоминания безопасности: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881, CVE-2026-41579.
+
+
 * Sat May 02 2026 NiceOS Team <support@niceos.ru> - 1.3.5-1
 - EN: - Update runc from 1.3.0 to 1.3.5.
 - Apply upstream patch fixes for recursive atime-related mount flags and revert the runc create regression.
