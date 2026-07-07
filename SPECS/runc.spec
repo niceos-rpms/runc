@@ -15,6 +15,7 @@ License:        LGPL-2.1-only
 URL:            https://runc.io
 
 Source0:        https://github.com/opencontainers/runc/archive/refs/tags/v%{version}.tar.gz#%{name}-%{version}.tar.gz
+Source1:        %{name}-%{version}-vendor.tar.xz
 
 Packager:       NICE SOFT GROUP LLC (ООО "НАЙС СОФТ ГРУПП") 5024245440 <niceos@ncsgp.ru>
 Vendor:         NiceSOFT
@@ -56,6 +57,9 @@ This subpackage contains manual pages and other documentation for runc.
 %autosetup -p1 -c
 mkdir -p "$(dirname "src/%{gopath_comp}")"
 mv %{name}-%{RUNC_VERSION} src/%{gopath_comp}
+cd src/%{gopath_comp}
+# Unpack regenerated Go vendor dependencies.
+tar -xJf %{SOURCE1} --strip-components=1
 
 %build
 export GOPATH="$(pwd)"

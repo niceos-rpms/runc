@@ -23,7 +23,7 @@
     "dir": "runc",
     "dir_policy": "spec-basename",
     "epoch": null,
-    "evr": "1.3.5-1",
+    "evr": "1.3.6-1",
     "name": "runc",
     "release": "1",
     "version": "1.3.5"
