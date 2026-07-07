@@ -7,7 +7,7 @@
 %define gopath_comp  github.com/opencontainers/runc
 
 Name:           runc
-Version:        1.3.5
+Version:        1.3.6
 Release:        1%{?dist}
 Summary:        Run and manage containers
 Summary(ru):    Запуск и управление контейнерами
@@ -15,6 +15,7 @@ License:        LGPL-2.1-only
 URL:            https://runc.io
 
 Source0:        https://github.com/opencontainers/runc/archive/refs/tags/v%{version}.tar.gz#%{name}-%{version}.tar.gz
+Source1:        %{name}-%{version}-vendor.tar.xz
 
 Packager:       NICE SOFT GROUP LLC (ООО "НАЙС СОФТ ГРУПП") 5024245440 <niceos@ncsgp.ru>
 Vendor:         NiceSOFT
@@ -56,6 +57,9 @@ This subpackage contains manual pages and other documentation for runc.
 %autosetup -p1 -c
 mkdir -p "$(dirname "src/%{gopath_comp}")"
 mv %{name}-%{RUNC_VERSION} src/%{gopath_comp}
+cd src/%{gopath_comp}
+# Unpack regenerated Go vendor dependencies.
+tar -xJf %{SOURCE1} --strip-components=1
 
 %build
 export GOPATH="$(pwd)"
@@ -87,6 +91,11 @@ make %{?_smp_mflags} \
 %doc %{_mandir}/man8/*
 
 %changelog
+* Tue Jul 07 2026 NiceOS Team <support@niceos.ru> - 1.3.6-1
+- EN: Update to upstream version 1.3.6. Security references: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881, CVE-2026-41579.
+- RU: Обновление до upstream-версии 1.3.6. Упоминания безопасности: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881, CVE-2026-41579.
+
+
 * Sat May 02 2026 NiceOS Team <support@niceos.ru> - 1.3.5-1
 - EN: - Update runc from 1.3.0 to 1.3.5.
 - Apply upstream patch fixes for recursive atime-related mount flags and revert the runc create regression.
